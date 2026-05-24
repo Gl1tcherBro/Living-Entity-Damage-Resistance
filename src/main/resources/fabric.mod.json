@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "living-entity-damage-resistance",
-	"version": "0.0.1",
+	"version": "${version}",
 	"name": "Living Entity Damage Resistance",
 	"description": "This is a mod to allow you to give any entity damage resistance like how items can have it",
 	"authors": [
