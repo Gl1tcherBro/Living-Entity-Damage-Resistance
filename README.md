@@ -1,9 +1,3 @@
 # Living Entity Damage Resistance
 
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This is a Minecraft mod to allow you to give any entity damage resistance like how items can have it, and it is done via the command "/resistances"
