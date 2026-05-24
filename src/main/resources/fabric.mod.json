@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "living-entity-damage-resistance",
+	"version": "0.0.1",
+	"name": "Living Entity Damage Resistance",
+	"description": "This is a mod to allow you to give any entity damage resistance like how items can have it",
+	"authors": [
+		"Gl1tcherBro"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/living-entity-damage-resistance/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gl1tch.dmgresist.LivingEntityDamageResistance"
+		]
+	},
+	"mixins": [
+		"living-entity-damage-resistance.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": ">=26.2-",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"accessWidener": "dmgresist.classtweaker"
+}
